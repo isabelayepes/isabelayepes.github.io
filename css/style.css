@@ -1,0 +1,76 @@
+html {
+  background-color: black; <!-- can use hex codes #6digitnumbers -->
+}
+.custom {
+  cursor: url(img/resized-left-wand.png), auto;
+}
+body{
+  font-family: 'Coiny', cursive;
+  color: coral;
+  padding-bottom: 25px;
+  min-width: 400px; <!-- makes it mobile friendly-->
+  width: 50%;
+  margin: auto; <!-- makes it change based on the size of the screen-->
+
+}
+
+p { <!-- alters all p type html elements with the specified font size -->
+    font-size: 20px; <!-- property and value pair -->
+
+}
+
+h1 {
+  font-size: 40px;
+  color: pink;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+#icon{
+  width: 110%;
+  height: 110%;
+}
+.blue {
+  font-size: 20px;
+  color: blue;
+}
+
+.gif{
+  min-width: 150px;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#headshot{
+  width: 25%;
+  min-width:150px;
+}
+
+#time{
+    display: inline-block;
+    color: white;
+}
+
+#time h3{
+  color: white;
+}
+
+#weather{
+  width:90%;
+  height: 60%
+}
+.block{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: purple;
+  margin-top:10px;
+  margin-bottom: 10px;
+
+}
+
+.gif{
+  display: inline-block;
+}
